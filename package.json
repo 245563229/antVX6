@@ -1,0 +1,36 @@
+{
+  "name": "v-topo-draw",
+  "version": "1.0.3",
+  "private": false,
+  "author": "lirui",
+  "main": "lib/v-topo-draw.umd.min.js",
+  "description": "基于ant-x6的封装，进行topo图的绘制",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name v-topo-draw --dest lib ./packages/index.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@antv/x6": "^1.33.1",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.8",
+    "insert-css": "^2.0.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.19",
+    "@vue/cli-service": "~4.5.19",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "keywords": [
+    "ant-x6",
+    "x6",
+    "接线图绘制",
+    "topo"
+  ],
+  "license": "ISC"
+}
